@@ -7,14 +7,22 @@ This repository houses the database for kelp observations across California, whi
 
 ## **Purpose**
 
-The purpose for this project was to provide a metric of comparison to the Pacific Marine & Estuarine Fish Habitat Partnership 'canopy-forming macroalgae (kelp)' coverage data for the state of California. Specifically, we were interested in analyzing where kelp abundance was highest within 4 pre-defined regions from the Marine Life Protection Act working groups. These regions are as follows:
+The purpose for this project was to provide a metric of comparison to the Pacific Marine & Estuarine Fish Habitat Partnership 'canopy-forming macroalgae (kelp)' coverage data for the state of California. Specifically, we were interested in analyzing where kelp abundance was highest within 5 pre-defined regions from the Marine Life Protection Act working groups. These regions are as follows:
 
+SCSR = South Coast Study Region
+
+NCCSR = North Central Coast Study Region
+
+CCSR = Central Coast Study Region
+
+NCSR = North Coast Study Region
+
+SFBSR = San Francisco Bay Study Region
 
 
 ## **Contents**
   
-- A concise description of what’s housed in the repository. This includes information about the repository structure or file organization.
-- No hidden files other than .gitignore are included in the repository, in particular there are no .DS_Store files.
+This repository contains a database, which holds both the California MPA data and KelpWatch kelp observations are point information with station IDS. Please not that the KelpWatch data did not contain geometries initially and had to be converted to points in the file 
 
 **Structure:**
 ```
