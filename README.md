@@ -1,4 +1,4 @@
-# KelpWatch: Looking at Kelp Observations within California's MPA Network
+# KelpWatch: Kelp Observations within California's MPA Network
 This repository houses the database for kelp observations across California, which were intersected with Marine Protected Area boundaries from the California Department of Fish and Wildlife.
 
 --------------------------------------------------------------------------
