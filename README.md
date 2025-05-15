@@ -22,14 +22,20 @@ SFBSR = San Francisco Bay Study Region
 
 ## **Contents**
   
-This repository contains a database, which holds both the California MPA data and KelpWatch kelp observations are point information with station IDS. Please not that the KelpWatch data did not contain geometries initially and had to be converted to points in the file 
+This repository contains a database ('kelp_database.db'), which holds both the California MPA data and KelpWatch kelp observations are point information with station IDS. This database was built using the schema in 'schema_build_script.sql' via the 'build_database.txt' file. The csv files whose data was used to construct the tables in the database are 'ca_mpas.csv' and 'kelp_counts.csv'. The cleaning process and creation of these csv files can be found in the 'kelpwatch.qmd'. Lastly, a visualization was created in the 'kelp_mpa_vis.qmd' file.
 
 **Structure:**
+
 ```
 KelpWatch_CA
-│_ README.md
-|_ 
-|_ 
+│  └──README.md
+|  └──build_database.txt
+|  └──ca_mpas.csv
+|  └──kelp_counts.csv
+|  └──kelp_database.db
+│  └──kelpwatch.qmd
+|  └──kelp_mpa_vis.qmd
+|  └──schema_build_script.sql
 ```
 
 ## **Data Access**
